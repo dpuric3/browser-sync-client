@@ -3,3 +3,5 @@ node_modules
 npm-debug.log
 test/coverage
 example.proxy.js
+*.sublime-project
+*.sublime-workspace

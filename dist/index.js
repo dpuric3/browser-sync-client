@@ -255,6 +255,7 @@ utils.setScroll = function (pos) {
  * Hard reload
  */
 utils.reloadBrowser = function () {
+    utils.getWindow().localStorage.clear();
     utils.getWindow().location.reload(true);
 };
 
